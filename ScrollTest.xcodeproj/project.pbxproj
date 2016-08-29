@@ -267,13 +267,7 @@
 				INFOPLIST_FILE = ScrollTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-force_load",
-					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
-					"-framework",
-					CFNetwork,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Promact.ScrollTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "57801529-fa7c-4c30-84d4-cb11ef9c5711";
@@ -288,13 +282,7 @@
 				INFOPLIST_FILE = ScrollTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-force_load",
-					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
-					"-framework",
-					CFNetwork,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Promact.ScrollTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "57801529-fa7c-4c30-84d4-cb11ef9c5711";
